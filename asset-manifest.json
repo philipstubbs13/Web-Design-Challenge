@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Web-Design-Challenge/static/css/main.ad912924.chunk.css",
-    "main.js": "/Web-Design-Challenge/static/js/main.24fcad29.chunk.js",
-    "main.js.map": "/Web-Design-Challenge/static/js/main.24fcad29.chunk.js.map",
+    "main.css": "/Web-Design-Challenge/static/css/main.1d326636.chunk.css",
+    "main.js": "/Web-Design-Challenge/static/js/main.64ff5527.chunk.js",
+    "main.js.map": "/Web-Design-Challenge/static/js/main.64ff5527.chunk.js.map",
     "runtime-main.js": "/Web-Design-Challenge/static/js/runtime-main.31295068.js",
     "runtime-main.js.map": "/Web-Design-Challenge/static/js/runtime-main.31295068.js.map",
-    "static/js/2.aa6280df.chunk.js": "/Web-Design-Challenge/static/js/2.aa6280df.chunk.js",
-    "static/js/2.aa6280df.chunk.js.map": "/Web-Design-Challenge/static/js/2.aa6280df.chunk.js.map",
+    "static/js/2.4521d38c.chunk.js": "/Web-Design-Challenge/static/js/2.4521d38c.chunk.js",
+    "static/js/2.4521d38c.chunk.js.map": "/Web-Design-Challenge/static/js/2.4521d38c.chunk.js.map",
     "index.html": "/Web-Design-Challenge/index.html",
-    "precache-manifest.04ac665e2235b53c93c19598943bb19e.js": "/Web-Design-Challenge/precache-manifest.04ac665e2235b53c93c19598943bb19e.js",
+    "precache-manifest.adb978b1fde2d872a85c72bdc1f18a8b.js": "/Web-Design-Challenge/precache-manifest.adb978b1fde2d872a85c72bdc1f18a8b.js",
     "service-worker.js": "/Web-Design-Challenge/service-worker.js",
-    "static/css/main.ad912924.chunk.css.map": "/Web-Design-Challenge/static/css/main.ad912924.chunk.css.map",
-    "static/js/2.aa6280df.chunk.js.LICENSE.txt": "/Web-Design-Challenge/static/js/2.aa6280df.chunk.js.LICENSE.txt",
+    "static/css/main.1d326636.chunk.css.map": "/Web-Design-Challenge/static/css/main.1d326636.chunk.css.map",
+    "static/js/2.4521d38c.chunk.js.LICENSE.txt": "/Web-Design-Challenge/static/js/2.4521d38c.chunk.js.LICENSE.txt",
     "static/media/percentage_videos_no_tags.png": "/Web-Design-Challenge/static/media/percentage_videos_no_tags.3ab3f65d.png",
     "static/media/popular_tags_us_2018.png": "/Web-Design-Challenge/static/media/popular_tags_us_2018.c2d4329f.png",
     "static/media/time_of_day_us.png": "/Web-Design-Challenge/static/media/time_of_day_us.8aad6d98.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.31295068.js",
-    "static/js/2.aa6280df.chunk.js",
-    "static/css/main.ad912924.chunk.css",
-    "static/js/main.24fcad29.chunk.js"
+    "static/js/2.4521d38c.chunk.js",
+    "static/css/main.1d326636.chunk.css",
+    "static/js/main.64ff5527.chunk.js"
   ]
 }
