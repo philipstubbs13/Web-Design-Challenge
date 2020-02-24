@@ -5,7 +5,7 @@
 	--app-dark-color: #040224 ;
 }
 
-h3 {
+h3, h4 {
   color: var(--app-secondary-color);
 }
 
