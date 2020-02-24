@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/Web-Design-Challenge/static/css/main.13b11d61.chunk.css",
-    "main.js": "/Web-Design-Challenge/static/js/main.328ad0c3.chunk.js",
-    "main.js.map": "/Web-Design-Challenge/static/js/main.328ad0c3.chunk.js.map",
+    "main.css": "/Web-Design-Challenge/static/css/main.9a4910d4.chunk.css",
+    "main.js": "/Web-Design-Challenge/static/js/main.773afff4.chunk.js",
+    "main.js.map": "/Web-Design-Challenge/static/js/main.773afff4.chunk.js.map",
     "runtime-main.js": "/Web-Design-Challenge/static/js/runtime-main.31295068.js",
     "runtime-main.js.map": "/Web-Design-Challenge/static/js/runtime-main.31295068.js.map",
-    "static/js/2.59cf3dda.chunk.js": "/Web-Design-Challenge/static/js/2.59cf3dda.chunk.js",
-    "static/js/2.59cf3dda.chunk.js.map": "/Web-Design-Challenge/static/js/2.59cf3dda.chunk.js.map",
+    "static/js/2.2c14e971.chunk.js": "/Web-Design-Challenge/static/js/2.2c14e971.chunk.js",
+    "static/js/2.2c14e971.chunk.js.map": "/Web-Design-Challenge/static/js/2.2c14e971.chunk.js.map",
     "index.html": "/Web-Design-Challenge/index.html",
-    "precache-manifest.45809568be0b81d3fb7782ec8fb6811e.js": "/Web-Design-Challenge/precache-manifest.45809568be0b81d3fb7782ec8fb6811e.js",
+    "precache-manifest.85b350f36c8583242fc4edf974b87665.js": "/Web-Design-Challenge/precache-manifest.85b350f36c8583242fc4edf974b87665.js",
     "service-worker.js": "/Web-Design-Challenge/service-worker.js",
-    "static/css/main.13b11d61.chunk.css.map": "/Web-Design-Challenge/static/css/main.13b11d61.chunk.css.map",
-    "static/js/2.59cf3dda.chunk.js.LICENSE.txt": "/Web-Design-Challenge/static/js/2.59cf3dda.chunk.js.LICENSE.txt",
+    "static/css/main.9a4910d4.chunk.css.map": "/Web-Design-Challenge/static/css/main.9a4910d4.chunk.css.map",
+    "static/js/2.2c14e971.chunk.js.LICENSE.txt": "/Web-Design-Challenge/static/js/2.2c14e971.chunk.js.LICENSE.txt",
     "static/media/percentage_videos_no_tags.png": "/Web-Design-Challenge/static/media/percentage_videos_no_tags.3ab3f65d.png",
     "static/media/popular_tags_us_2018.png": "/Web-Design-Challenge/static/media/popular_tags_us_2018.c2d4329f.png",
+    "static/media/time_of_day_ous.png": "/Web-Design-Challenge/static/media/time_of_day_ous.495dbf7a.png",
     "static/media/time_of_day_us.png": "/Web-Design-Challenge/static/media/time_of_day_us.8aad6d98.png",
+    "static/media/top_tags_Comedy_US.png": "/Web-Design-Challenge/static/media/top_tags_Comedy_US.1faf8b82.png",
+    "static/media/top_tags_Entertainment_US.png": "/Web-Design-Challenge/static/media/top_tags_Entertainment_US.3d9dd2f5.png",
+    "static/media/top_tags_Howto & Style_US.png": "/Web-Design-Challenge/static/media/top_tags_Howto & Style_US.dfd744a4.png",
+    "static/media/top_tags_Music_US.png": "/Web-Design-Challenge/static/media/top_tags_Music_US.1f0f2882.png",
+    "static/media/top_tags_News & Politics_US.png": "/Web-Design-Challenge/static/media/top_tags_News & Politics_US.918b8c29.png",
+    "static/media/top_trending_videos_by_category_ous.png": "/Web-Design-Challenge/static/media/top_trending_videos_by_category_ous.67140b67.png",
     "static/media/top_trending_videos_by_category_us.png": "/Web-Design-Challenge/static/media/top_trending_videos_by_category_us.5d4b4c20.png"
   },
   "entrypoints": [
     "static/js/runtime-main.31295068.js",
-    "static/js/2.59cf3dda.chunk.js",
-    "static/css/main.13b11d61.chunk.css",
-    "static/js/main.328ad0c3.chunk.js"
+    "static/js/2.2c14e971.chunk.js",
+    "static/css/main.9a4910d4.chunk.css",
+    "static/js/main.773afff4.chunk.js"
   ]
 }
