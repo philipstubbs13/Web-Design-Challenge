@@ -1,0 +1,18 @@
+.navbar-title {
+  font-size: 24px;
+  background-color: var(--app-secondary-color);
+  color: var(--app-light-color) !important;
+  padding: 15px;
+  margin-left: 10px;
+}
+
+.nav-item {
+  font-size: 20px;
+  color: var(--app-secondary-color) !important;
+}
+
+.navbar { 
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: var(--app-dark-color) !important;
+}
