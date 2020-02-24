@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/youtube-trending-analysis/static/css/main.d1b05096.chunk.css",
-    "main.js": "/youtube-trending-analysis/static/js/main.7b79dca8.chunk.js",
-    "main.js.map": "/youtube-trending-analysis/static/js/main.7b79dca8.chunk.js.map",
-    "runtime-main.js": "/youtube-trending-analysis/static/js/runtime-main.c62c1f79.js",
-    "runtime-main.js.map": "/youtube-trending-analysis/static/js/runtime-main.c62c1f79.js.map",
-    "static/js/2.10eb71ec.chunk.js": "/youtube-trending-analysis/static/js/2.10eb71ec.chunk.js",
-    "static/js/2.10eb71ec.chunk.js.map": "/youtube-trending-analysis/static/js/2.10eb71ec.chunk.js.map",
-    "index.html": "/youtube-trending-analysis/index.html",
-    "precache-manifest.cf70638c758eae1337d0f134716e3414.js": "/youtube-trending-analysis/precache-manifest.cf70638c758eae1337d0f134716e3414.js",
-    "service-worker.js": "/youtube-trending-analysis/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/youtube-trending-analysis/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.10eb71ec.chunk.js.LICENSE.txt": "/youtube-trending-analysis/static/js/2.10eb71ec.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/youtube-trending-analysis/static/media/logo.5d5d9eef.svg"
+    "main.css": "/Web-Design-Challenge/static/css/main.d1b05096.chunk.css",
+    "main.js": "/Web-Design-Challenge/static/js/main.d0a2b9a8.chunk.js",
+    "main.js.map": "/Web-Design-Challenge/static/js/main.d0a2b9a8.chunk.js.map",
+    "runtime-main.js": "/Web-Design-Challenge/static/js/runtime-main.31295068.js",
+    "runtime-main.js.map": "/Web-Design-Challenge/static/js/runtime-main.31295068.js.map",
+    "static/js/2.10eb71ec.chunk.js": "/Web-Design-Challenge/static/js/2.10eb71ec.chunk.js",
+    "static/js/2.10eb71ec.chunk.js.map": "/Web-Design-Challenge/static/js/2.10eb71ec.chunk.js.map",
+    "index.html": "/Web-Design-Challenge/index.html",
+    "precache-manifest.82d097928a6e09244b799f4af7d97055.js": "/Web-Design-Challenge/precache-manifest.82d097928a6e09244b799f4af7d97055.js",
+    "service-worker.js": "/Web-Design-Challenge/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/Web-Design-Challenge/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.10eb71ec.chunk.js.LICENSE.txt": "/Web-Design-Challenge/static/js/2.10eb71ec.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Web-Design-Challenge/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c62c1f79.js",
+    "static/js/runtime-main.31295068.js",
     "static/js/2.10eb71ec.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.7b79dca8.chunk.js"
+    "static/js/main.d0a2b9a8.chunk.js"
   ]
 }
