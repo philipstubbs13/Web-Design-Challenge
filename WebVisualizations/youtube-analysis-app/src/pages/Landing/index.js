@@ -2,11 +2,7 @@
 import React from 'react'
 import './Landing.css';
 import timeUSBarChart from '../../Images/time_of_day_us.png';
-import timeOUSBarChart from '../../Images/time_of_day_us.png'
-import tagsPieChart from '../../Images/percentage_videos_no_tags.png';
-import tagsBarChart from '../../Images/popular_tags_us_2018.png';
-import categoryUSPieChart from '../../Images/top_trending_videos_by_category_us.png';
-import categoryOUSPieChart from '../../Images/top_trending_videos_by_category_ous.png';
+import Visualizations from '../../components/Visualizations';
 
 export default function Landing() {
   return (
@@ -28,36 +24,7 @@ export default function Landing() {
           </div>
         </div>
         <div className="col-md-6 col-sm-12 mt-5">
-          <div className="card">
-            <div className="card-body">
-              <h3>Visualizations</h3>
-              <hr/>
-              <div className="row">
-                <div className="col-md-6">
-                  <img src={timeUSBarChart} class="visualization-image" />
-                </div>
-                <div className="col-md-6">
-                  <img src={timeOUSBarChart} class="visualization-image" />
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-6">
-                  <img src={tagsPieChart} class="visualization-image" />
-                </div>
-                <div className="col-md-6">
-                  <img src={tagsBarChart} class="visualization-image" />
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-6">
-                  <img src={categoryUSPieChart} class="visualization-image" />
-                </div>
-                <div className="col-md-6">
-                  <img src={categoryOUSPieChart} class="visualization-image" />
-                </div>
-              </div>
-            </div>
-          </div>
+          <Visualizations />
         </div>
       </div>
     </div>

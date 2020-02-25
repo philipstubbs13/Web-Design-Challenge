@@ -2,6 +2,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './NavBar.css';
+import { plots } from '../../data/plotData';
 
 export default function NavBar() {
   return (
@@ -15,7 +16,18 @@ export default function NavBar() {
       <div className="collapse navbar-collapse ml-auto ml-4" id="navbarNavAltMarkup">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ml-auto">
-            <a className="nav-item nav-link ml-5 mr-5 nav-item" href="#" >Plots</a>
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle nav-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                {plots && plots.length && plots.map(plot => (
+                  <Link key={plot.id} to={`/plots/${plot.id}`}>
+                    <a key={plot.id} className="dropdown-item">{plot.menu_title}</a>
+                  </Link>
+                ))}
+              </div>
+            </li>
             <Link to="/comparison">
               <button className="nav-item nav-link ml-5 mr-5 nav-item btn btn-link" type="button" >
                 Comparison

@@ -24,3 +24,12 @@ h3, h4 {
 .push {
   height: 50px;
 }
+
+a {
+  text-decoration: none !important;
+  color: var(--app-dark-color);
+}
+
+a:hover {
+  color: var(--app-secondary-color);
+}
