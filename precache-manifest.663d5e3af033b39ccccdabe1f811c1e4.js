@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5759d159768af16995633c363bd186ba",
+    "revision": "35fc996fa5e777f68fc46f11608415fb",
     "url": "/Web-Design-Challenge/index.html"
   },
   {
-    "revision": "5843904aa555859cd724",
-    "url": "/Web-Design-Challenge/static/css/main.02620f0e.chunk.css"
+    "revision": "74d4bcdf81c5280ecd57",
+    "url": "/Web-Design-Challenge/static/css/main.4e87e032.chunk.css"
   },
   {
-    "revision": "e0145cccb7679d44a687",
-    "url": "/Web-Design-Challenge/static/js/2.93d9d674.chunk.js"
+    "revision": "526c8ff176c2c074e598",
+    "url": "/Web-Design-Challenge/static/js/2.efd82af2.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/Web-Design-Challenge/static/js/2.93d9d674.chunk.js.LICENSE.txt"
+    "url": "/Web-Design-Challenge/static/js/2.efd82af2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5843904aa555859cd724",
-    "url": "/Web-Design-Challenge/static/js/main.5ead2af5.chunk.js"
+    "revision": "74d4bcdf81c5280ecd57",
+    "url": "/Web-Design-Challenge/static/js/main.e8d735a8.chunk.js"
   },
   {
     "revision": "368d41487377196090b7",
