@@ -3,12 +3,6 @@
   padding: 0px;
 }
 
-.landing-grid {
-  display: grid;
-  grid-template-columns: 7fr 5fr;
-  grid-gap: 20px;
-}
-
 .text-wrap {
   float: left;
   margin: 10px;

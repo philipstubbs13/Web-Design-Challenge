@@ -15,4 +15,9 @@
   padding-top: 0;
   padding-bottom: 0;
   background-color: var(--app-dark-color) !important;
+  margin-left: -65px;
+}
+
+.navbar-toggler {
+  background-color: var(--app-secondary-color);
 }
