@@ -2,5 +2,4 @@
   background-color: var(--app-dark-color);
   color: var(--app-secondary-color);
   border-top: 5px solid var(--app-secondary-color);
-  height: 50px;
 }

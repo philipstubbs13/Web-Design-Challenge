@@ -1,5 +1,6 @@
 // @ts-nocheck
 import React from 'react';
+import { Link } from 'react-router-dom';
 import timeUSBarChart from '../../Images/time_of_day_us.png';
 import timeOUSBarChart from '../../Images/time_of_day_ous.png';
 import categoryUSPieChart from '../../Images/top_trending_videos_by_category_us.png';
@@ -28,11 +29,15 @@ export default function Comparison() {
                 <div className="row mt-3">
                   <div className="col-md-6 col-sm-12">
                     <h4 class="text-center">US</h4>
-                    <img src={timeUSBarChart} class="visualization" />
+                    <Link to="/plots/1">
+                      <img src={timeUSBarChart} class="visualization" />
+                    </Link>
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">OUS</h4>
-                    <img src={timeOUSBarChart} class="visualization" />
+                    <Link to="/plots/2">
+                      <img src={timeOUSBarChart} class="visualization" />
+                    </Link>
                   </div>
                 </div>         
               </div>
@@ -46,11 +51,15 @@ export default function Comparison() {
                 <div className="row mt-3">
                   <div className="col-md-6 col-sm-12">
                     <h4 class="text-center">US</h4>
-                    <img src={categoryUSPieChart} class="visualization" />
+                    <Link to="/plots/3">
+                      <img src={categoryUSPieChart} class="visualization" />
+                    </Link>
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">OUS</h4>
-                    <img src={categoryOUSPieChart} class="visualization" />
+                    <Link to="/plots/4">
+                      <img src={categoryOUSPieChart} class="visualization" />
+                    </Link>
                   </div>
                 </div>         
               </div>

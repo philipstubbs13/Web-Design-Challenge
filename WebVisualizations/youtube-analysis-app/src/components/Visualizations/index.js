@@ -1,6 +1,7 @@
 // @ts-nocheck
 import React from 'react';
 import { Link } from 'react-router-dom';
+import VisualizationLink from '../VisualizationLink';
 import timeUSBarChart from '../../Images/time_of_day_us.png';
 import timeOUSBarChart from '../../Images/time_of_day_us.png'
 import tagsPieChart from '../../Images/percentage_videos_no_tags.png';
@@ -16,40 +17,12 @@ export default function Visualizations(props) {
         <h3>Visualizations</h3>
         <hr/>
         <div className="row">
-          <div className="col-md-6">
-            <Link to="/plots/1">
-              <img src={timeUSBarChart} className="visualization-image" />
-            </Link>
-          </div>       
-          <div className="col-md-6">
-            <Link to="/plots/2">
-              <img src={timeOUSBarChart} className="visualization-image" />
-            </Link>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-6">
-            <Link to="/plots/5">
-              <img src={tagsPieChart} className="visualization-image" />
-            </Link>
-          </div>
-          <div className="col-md-6">
-            <Link to="/plots/6">
-              <img src={tagsBarChart} className="visualization-image" />
-            </Link>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-6">
-            <Link to="/plots/3">
-              <img src={categoryUSPieChart} className="visualization-image" />
-            </Link>
-          </div>
-          <div className="col-md-6">
-            <Link to="/plots/4">
-              <img src={categoryOUSPieChart} className="visualization-image" />
-            </Link>
-          </div>
+          <VisualizationLink image={timeUSBarChart} link="/plots/1" activePlot={activePlot} />
+          <VisualizationLink image={timeOUSBarChart} link="/plots/2" activePlot={activePlot} />
+          <VisualizationLink image={tagsPieChart} link="/plots/5" activePlot={activePlot} />
+          <VisualizationLink image={tagsBarChart} link="/plots/6" activePlot={activePlot} />
+          <VisualizationLink image={categoryUSPieChart} link="/plots/3" activePlot={activePlot} />
+          <VisualizationLink image={categoryOUSPieChart} link="/plots/4" activePlot={activePlot} />
         </div>
       </div>
     </div>

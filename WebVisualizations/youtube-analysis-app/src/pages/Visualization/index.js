@@ -27,8 +27,8 @@ export default function Visualization(props) {
                 <div className="card-body">
                   <h3>{plotObject.title}</h3>
                   <hr/>
-                  <img className="text-wrap landing-image" src={timeUSBarChart} />
-                  <p>{plotObject.description}</p>
+                  <img className="visualization image" src={timeUSBarChart} />
+                  <p className="mt-4">{plotObject.description}</p>
                 </div>
               </div>
             </div>

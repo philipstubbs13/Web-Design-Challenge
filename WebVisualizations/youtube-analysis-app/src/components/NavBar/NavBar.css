@@ -1,14 +1,22 @@
 .navbar-title {
-  font-size: 24px;
+  font-size: 20px;
   background-color: var(--app-secondary-color);
   color: var(--app-light-color) !important;
   padding: 15px;
   margin-left: 10px;
 }
 
+.navbar-title:hover {
+  color: var(--app-dark-color) !important;
+}
+
 .nav-item {
   font-size: 20px;
   color: var(--app-secondary-color) !important;
+}
+
+.nav-item:hover {
+  color: var(--app-light-color) !important;
 }
 
 .navbar { 

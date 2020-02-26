@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
       <a className="navbar-brand ml-5 navbar-title" href="#">
-        YouTube Trending Analysis
+        YouTube Trending Insights
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
