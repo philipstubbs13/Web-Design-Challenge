@@ -1,3 +1,10 @@
 .active-visualization {
   border: 4px solid var(--app-dark-color);
 }
+
+.visuaization-image {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px !important;
+}

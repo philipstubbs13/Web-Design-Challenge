@@ -12,7 +12,7 @@ export default function Visualization(props) {
   
   useMemo(() => {
     let foundPlot = null;
-    foundPlot = plots.find(plot => plot.id === match.params.id)
+    foundPlot = plots.find(plot => plot.id === id)
     setPlotObject(foundPlot)
   }, [id])
 
@@ -24,9 +24,9 @@ export default function Visualization(props) {
             <div className="col-md-6 col-sm-12 mt-5">
               <div className="card">
                 <div className="card-body">
-                  <h3><i class="fab fa-youtube"></i> {plotObject.title}</h3>
+                  <h3><i className="fab fa-youtube"></i> {plotObject.title}</h3>
                   <hr/>
-                  <img className="visualization image" src={process.env.PUBLIC_URL+ `/images/${plotObject.image}`} />
+                  <img className="visualization image" src={process.env.PUBLIC_URL+ `/images/${plotObject.image}`} alt={plotObject.alt} />
                   <p className="mt-4">{plotObject.description}</p>
                 </div>
               </div>

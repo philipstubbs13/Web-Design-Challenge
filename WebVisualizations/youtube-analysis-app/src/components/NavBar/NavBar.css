@@ -29,3 +29,7 @@
 .navbar-toggler {
   background-color: var(--app-secondary-color);
 }
+
+.dropdown-item:hover {
+  color:var(--app-secondary-color);
+}

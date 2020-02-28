@@ -8,7 +8,7 @@ export default function Data() {
         <div className="col-md-12">
           <div className="card">
             <div className="card-body">
-              <h3><i class="fas fa-database"></i> Data</h3>
+              <h3><i className="fas fa-database"></i> Data</h3>
               <hr />
               <p>
                 The following table shows a sample (~50 rows) of the data that the YouTube API returns and that was used for plotting during this project.
