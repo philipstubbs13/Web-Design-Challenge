@@ -14,7 +14,7 @@ export default function Visualizations(props) {
   return (
     <div className="card">
       <div className="card-body">
-        <h3>Visualizations</h3>
+        <h3><i class="fab fa-youtube"></i> Visualizations</h3>
         <hr/>
         <div className="row">
           <VisualizationLink image={timeUSBarChart} link="/plots/1" activePlot={activePlot} />

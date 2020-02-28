@@ -1,7 +1,6 @@
 // @ts-nocheck
 import React, { useMemo, useState } from 'react'
 import './Visualization.css';
-import timeUSBarChart from '../../Images/time_of_day_us.png';
 import Visualizations from '../../components/Visualizations';
 import { plots } from '../../data/plotData';
 
@@ -25,9 +24,9 @@ export default function Visualization(props) {
             <div className="col-md-6 col-sm-12 mt-5">
               <div className="card">
                 <div className="card-body">
-                  <h3>{plotObject.title}</h3>
+                  <h3><i class="fab fa-youtube"></i> {plotObject.title}</h3>
                   <hr/>
-                  <img className="visualization image" src={timeUSBarChart} />
+                  <img className="visualization image" src={process.env.PUBLIC_URL+ `/images/${plotObject.image}`} />
                   <p className="mt-4">{plotObject.description}</p>
                 </div>
               </div>

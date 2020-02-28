@@ -8,7 +8,10 @@ export default function VisualizationLink(props) {
   return (
     <div className="col-md-6">
       <Link to={link}>
-        <img src={image} style={{ padding: '30px !important' }} className={(visualization_id === activePlot  ? 'active-visualization visualization-image' : 'visualization-image')} />
+        <img
+          src={image}
+          style={{ padding: '30px !important' }}
+          className={(visualization_id === activePlot  ? 'active-visualization visualization-image' : 'visualization-image')} />
       </Link>
     </div> 
   )

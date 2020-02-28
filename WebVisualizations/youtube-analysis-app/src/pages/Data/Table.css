@@ -1,0 +1,21 @@
+td {
+  padding: 10px 5px;
+}
+
+th {
+  text-align: left;
+  padding: 10px 10px;
+}
+
+thead {
+  background-color: var(--app-dark-color);
+  color: var(--app-secondary-color);
+}
+
+table,th {
+  border: 2px solid var(--app-dark-color) !important;
+}
+
+td {
+  border: 1px solid var(--app-secondary-color) !important;
+}

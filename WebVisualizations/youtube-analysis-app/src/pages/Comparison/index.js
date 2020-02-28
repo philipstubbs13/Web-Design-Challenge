@@ -1,6 +1,8 @@
 // @ts-nocheck
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+// Images of visualizations.
 import timeUSBarChart from '../../Images/time_of_day_us.png';
 import timeOUSBarChart from '../../Images/time_of_day_ous.png';
 import categoryUSPieChart from '../../Images/top_trending_videos_by_category_us.png';
@@ -21,7 +23,7 @@ export default function Comparison() {
           <div className="card">
             <div className="card-body">
               <div>
-                <h4>Location Comparison: How does video publish time affect engagement?</h4>
+                <h4><i class="fab fa-youtube"></i> How does video publish time affect engagement?</h4>
                 <hr />
                 <p>
                   Click any plot to get an in-depth analysis.
@@ -43,7 +45,7 @@ export default function Comparison() {
               </div>
 
               <div class="mt-5">
-                <h4>Location Comparison: Are certain types of videos more likely to make it on the trending list?</h4>
+                <h4><i class="fab fa-youtube"></i> Are certain types of videos more likely to make it on the trending list?</h4>
                 <hr />
                 <p>
                   Click any plot to get an in-depth analysis.
@@ -65,7 +67,7 @@ export default function Comparison() {
               </div>
 
               <div class="mt-5">
-                <h4>Category Comparison: How do tags (keywords) affect number of views?</h4>
+                <h4><i class="fab fa-youtube"></i> How do tags (keywords) affect number of views?</h4>
                 <hr />
                 <p>
                   Click any plot to get an in-depth analysis.

@@ -9,6 +9,14 @@ h3, h4 {
   color: var(--app-secondary-color);
 }
 
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
 .card {
   border: 2px solid var(--app-dark-color);
 }
