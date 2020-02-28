@@ -38,3 +38,12 @@
   padding-left: 50px;
 }
 
+
+/* Bootstrap md breakpoint */
+@media (max-width: 991.98px) { 
+  .dropdown-menu {
+    background-color: var(--app-secondary-color);
+  };
+}
+
+
