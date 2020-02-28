@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Web-Design-Challenge/static/css/main.17a3d558.chunk.css",
-    "main.js": "/Web-Design-Challenge/static/js/main.fd035f20.chunk.js",
-    "main.js.map": "/Web-Design-Challenge/static/js/main.fd035f20.chunk.js.map",
+    "main.css": "/Web-Design-Challenge/static/css/main.221a4203.chunk.css",
+    "main.js": "/Web-Design-Challenge/static/js/main.dc508801.chunk.js",
+    "main.js.map": "/Web-Design-Challenge/static/js/main.dc508801.chunk.js.map",
     "runtime-main.js": "/Web-Design-Challenge/static/js/runtime-main.31295068.js",
     "runtime-main.js.map": "/Web-Design-Challenge/static/js/runtime-main.31295068.js.map",
     "static/js/2.761151b0.chunk.js": "/Web-Design-Challenge/static/js/2.761151b0.chunk.js",
     "static/js/2.761151b0.chunk.js.map": "/Web-Design-Challenge/static/js/2.761151b0.chunk.js.map",
     "index.html": "/Web-Design-Challenge/index.html",
-    "precache-manifest.b596e64ea6b6e74d71c68977f54ef3fa.js": "/Web-Design-Challenge/precache-manifest.b596e64ea6b6e74d71c68977f54ef3fa.js",
+    "precache-manifest.e2b7a8178b5bff0d4fb96795a553ff42.js": "/Web-Design-Challenge/precache-manifest.e2b7a8178b5bff0d4fb96795a553ff42.js",
     "service-worker.js": "/Web-Design-Challenge/service-worker.js",
-    "static/css/main.17a3d558.chunk.css.map": "/Web-Design-Challenge/static/css/main.17a3d558.chunk.css.map",
+    "static/css/main.221a4203.chunk.css.map": "/Web-Design-Challenge/static/css/main.221a4203.chunk.css.map",
     "static/js/2.761151b0.chunk.js.LICENSE.txt": "/Web-Design-Challenge/static/js/2.761151b0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.31295068.js",
     "static/js/2.761151b0.chunk.js",
-    "static/css/main.17a3d558.chunk.css",
-    "static/js/main.fd035f20.chunk.js"
+    "static/css/main.221a4203.chunk.css",
+    "static/js/main.dc508801.chunk.js"
   ]
 }
