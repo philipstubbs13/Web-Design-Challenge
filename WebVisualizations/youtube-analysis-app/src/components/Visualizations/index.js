@@ -18,6 +18,7 @@ export default function Visualizations(props) {
               activePlot={activePlot}
               key={plot.id}
               alt={plot.alt}
+              title={plot.menu_title}
             />
           ))}
         </div>

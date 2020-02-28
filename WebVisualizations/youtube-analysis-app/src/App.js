@@ -27,6 +27,7 @@ export default function App() {
         <NavBar />
         <div className="app-content">
           <Switch>
+            <Route exact path="/youtube-insights" component={Landing} />
             <Route exact path="/" component={Landing} />
             <Route exact path="/data" component={Data} />
             <Route exact path="/comparison" component={Comparison} />

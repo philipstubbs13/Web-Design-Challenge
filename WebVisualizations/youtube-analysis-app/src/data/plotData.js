@@ -47,4 +47,44 @@ export const plots = [
     alt: 'Most used tags for trending videos.',
     description: 'Tags are descriptive keywords you add to your video to help viewers find your content. When users type keywords related to your tags in the YouTube search box, your video will appear in their search results. According to YouTube, tagging is one of the most important ways to rank your videos in their search. This visualization shows the most used tags for trending videos in the US. From this visualization, we see that the top 3 tags are significantly more used, drove more views, and also seem to be related to the Entertainment category. This project also looked at the most common tags for each category as some categories are likely to use certain tags more than others. Specifically, this project looked at the top 10 tags from the top 5 categories with the most trending videos.'
   },
+  {
+    id: '7',
+    title: 'What are the most used tags for trending comedy videos?',
+    menu_title: 'Most Used Tags for Trending Comedy Videos',
+    image: 'top_tags_Comedy_US.png',
+    alt: 'Most used tags for trending comedy videos.',
+    description: 'This project looked at and compared trending videos for the top 5 most popular video categories on YouTube. One of the top 5 categories is comedy. Specifically, this visualization shows the top 10 tags for trending videos in the US that are a part of the comedy video category. From this visualization, we see that the top 3 tags ("funny", "comedy", and "humor") are significantly more used than other tags in this visualization.'
+  },
+  {
+    id: '8',
+    title: 'What are the most used tags for trending entertainment videos?',
+    menu_title: 'Most Used Tags for Trending Entertainment Videos',
+    image: 'top_tags_Entertainment_US.png',
+    alt: 'Most used tags for trending entertainment videos.',
+    description: 'This project looked at and compared trending videos for the top 5 most popular video categories on YouTube. One of the top 5 categories is entertainment (which is the number one most popular category). Specifically, this visualization shows the top 10 tags for trending videos in the US that are a part of the entertainment video category. From this visualization, we see that the top 2 tags ("funny" and "comedy") are significantly more used than other tags in this visualization.'
+  },
+  {
+    id: '9',
+    title: 'What are the most used tags for trending how to and style videos?',
+    menu_title: 'Most Used Tags for Trending How to and Style Videos',
+    image: 'top_tags_Howto & Style_US.png',
+    alt: 'Most used tags for trending how to and style videos.',
+    description: 'This project looked at and compared trending videos for the top 5 most popular video categories on YouTube. One of the top 5 categories is how to and style. Specifically, this visualization shows the top 10 tags for trending videos in the US that are a part of the how to and style video category. From this visualization, we see that the top tag used for this category is "how to", which is significantly more used than the other tags in this visualiztion. Also, it is interesting to point out that 4 ("chef", "kitchen", "food", and "recipe") of the top 10 tags are related to cooking, which suggests people are using YouTube videos to learn how to cook meals.'
+  },
+  {
+    id: '10',
+    title: 'What are the most used tags for trending music videos?',
+    menu_title: 'Most Used Tags for Trending Music Videos',
+    image: 'top_tags_Music_US.png',
+    alt: 'Most used tags for trending music videos.',
+    description: 'This project looked at and compared trending videos for the top 5 most popular video categories on YouTube. One of the top 5 categories is music. Specifically, this visualization shows the top 10 tags for trending videos in the US that are a part of the music video category. From this visualization, we see that the top 2 tags ("Pop" and "Records") are significantly more used than other tags in this visualization. This visualization also suggests that pop music is one of the most popular music genres in the US. Based on this visualization, other popular music genres include country and alternative.'
+  },
+  {
+    id: '11',
+    title: 'What are the most used tags for trending news and politics videos?',
+    menu_title: 'Most Used Tags for Trending News and Politics Videos',
+    image: 'top_tags_News & Politics_US.png',
+    alt: 'Most used tags for trending news and politics videos.',
+    description: 'This project looked at and compared trending videos for the top 5 most popular video categories on YouTube. One of the top 5 categories is news and politics. Specifically, this visualization shows the top 10 tags for trending videos in the US that are a part of the news and politics video category. From this visualization, we see that the top 3 tags used for this video category are "news", "politics", and "breaking news". 3 of these tags ("breaking news", "Happening Now", and "latest News") all related to recent news stories, suggesting that many people hear about the latest news events from YouTube and YouTube is one of the primary (if not the primary) means of getting information about what is going on in the world.'
+  },
 ]

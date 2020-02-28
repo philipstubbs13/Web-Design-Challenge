@@ -7,7 +7,7 @@ import { plots } from '../../data/plotData';
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white">
-      <a className="navbar-brand ml-5 navbar-title" href="/#">
+      <a className="navbar-brand ml-5 navbar-title" href="/youtube-insights">
         <i className="fab fa-youtube"></i> YouTube Trending Insights
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
