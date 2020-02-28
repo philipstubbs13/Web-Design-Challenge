@@ -16,7 +16,7 @@ export default function NavBar() {
       <div className="collapse navbar-collapse ml-auto ml-4" id="navbarNavAltMarkup">
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ml-auto">
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown ml-2">
               <a className="nav-link dropdown-toggle nav-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i className="fas fa-chart-bar"></i> Plots
               </a>
@@ -28,12 +28,12 @@ export default function NavBar() {
                 ))}
               </div>
             </li>
-            <Link to="/comparison">
+            <Link to="/comparison" className="ml-2">
               <button className="nav-item nav-link ml-5 mr-5 nav-item btn btn-link" type="button" >
                 <i className="fas fa-compress-alt"></i> Comparison
               </button>
             </Link>
-            <Link to="/data">
+            <Link to="/data" className="ml-2">
               <button className="nav-item nav-link ml-5 mr-5 nav-item btn btn-link" type="button" >
                 <i className="fas fa-database"></i> Data 
               </button>

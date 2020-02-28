@@ -1,5 +1,6 @@
 td {
   padding: 10px 5px;
+  font-size: 11px;
 }
 
 th {
@@ -18,4 +19,12 @@ table,th {
 
 td {
   border: 1px solid var(--app-secondary-color) !important;
+}
+
+a {
+  color: var(--app-secondary-color);
+}
+
+a:hover {
+  color: var(--app-dark-color);
 }
