@@ -2,6 +2,7 @@
 import React, { useMemo, useState } from 'react'
 import './Visualization.css';
 import Visualizations from '../../components/Visualizations';
+import NoMatch from '../NoMatch';
 import { plots } from '../../data/plotData';
 
 export default function Visualization(props) {
@@ -38,5 +39,9 @@ export default function Visualization(props) {
         </div>
       )
     }
+
+    return (
+      <NoMatch />
+    )
   
 }

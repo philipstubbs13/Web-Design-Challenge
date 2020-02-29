@@ -5,11 +5,11 @@ export default function NoMatch() {
   return (
     <div className="container">
       <div className="text-center mt-5">
-        <h1>
+        <h1 className="text-white">
           404
         </h1>
-        <h2>Page Not Found</h2>
-        <i className="far fa-frown fa-6x"></i>
+        <h2 className="text-white">Page Not Found</h2>
+        <i className="far fa-frown fa-6x text-white"></i>
         <p className="mt-3">
           Oops! Sorry about that.
         </p>
