@@ -6,8 +6,7 @@ export default function Data() {
     <div className="container">
       <div className="row mt-5">
         <div className="col-md-12">
-          <div className="card">
-            <div className="card-body">
+
               <h3><i className="fas fa-database"></i> About the Data</h3>
               <hr />
               <p>
@@ -23,8 +22,8 @@ export default function Data() {
                 The data also includes a <b>category_id</b> field. Retrieveing the category name required hitting an endpoint to the YouTube API to get the additional category data. For more information about specific columns and what they mean, refer to the <a href="https://developers.google.com/youtube/v3/docs/videos/list" target="_blank" rel="noopener noreferrer">YouTube API documentation</a>.
               </p>
               <Table />
-            </div>
-          </div>
+           
+
         </div>
       </div>
     </div>

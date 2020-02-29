@@ -12,6 +12,7 @@ import Landing from './pages/Landing';
 import Data from './pages/Data';
 import Comparison from './pages/Comparison';
 import Visualization from './pages/Visualization';
+import NoMatch from './pages/NoMatch';
 
 // Page routing
 import {
@@ -32,6 +33,7 @@ export default function App() {
             <Route exact path="/data" component={Data} />
             <Route exact path="/comparison" component={Comparison} />
             <Route exact path="/plots/:id" component={Visualization} />
+            <Route component={NoMatch} />
           </Switch>
         </div>
         <Footer />

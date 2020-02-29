@@ -3,10 +3,11 @@
 	--app-secondary-color: #66c010;
 	--app-light-color: #fff;
 	--app-dark-color: #040224 ;
+  --app-pink-color: rgb(255, 167, 196);
 }
 
 h3, h4 {
-  color: var(--app-secondary-color);
+  color: var(--app-light-color);
 }
 
 h3 {
@@ -17,8 +18,13 @@ h4 {
   font-size: 20px;
 }
 
+p {
+  color: var(--app-light-color);
+}
+
 .card {
-  border: 2px solid var(--app-dark-color);
+  border: 2px solid var(--app-secondary-color);
+  background-color: var(--app-dark-color);
 }
 
 a {
@@ -27,11 +33,11 @@ a {
 }
 
 a:hover {
-  color: var(--app-secondary-color);
+  color: var(--app-pink-color) !important;
 }
 
 hr {
-  border-top: 2px solid var(--app-dark-color);
+  border-top: 2px solid var(--app-secondary-color);
 }
 
 /* Sticky footer using flexbox */

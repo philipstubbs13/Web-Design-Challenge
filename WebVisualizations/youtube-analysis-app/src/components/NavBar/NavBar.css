@@ -16,7 +16,7 @@
 }
 
 .nav-item:hover {
-  color: var(--app-light-color) !important;
+  color: var(--app-pink-color) !important;
 }
 
 .navbar { 
@@ -24,6 +24,7 @@
   padding-bottom: 0;
   background-color: var(--app-dark-color) !important;
   margin-left: -65px;
+  border-bottom: 2px solid var(--app-secondary-color);
 }
 
 .navbar-toggler {

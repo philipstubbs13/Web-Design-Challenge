@@ -1,6 +1,8 @@
 td {
   padding: 10px 5px;
   font-size: 11px;
+  border: 1px solid var(--app-secondary-color) !important;
+  color: var(--app-light-color);
 }
 
 th {
@@ -14,11 +16,7 @@ thead {
 }
 
 table,th {
-  border: 2px solid var(--app-dark-color) !important;
-}
-
-td {
-  border: 1px solid var(--app-secondary-color) !important;
+  border: 2px solid var(--app-secondary-color) !important;
 }
 
 a {
