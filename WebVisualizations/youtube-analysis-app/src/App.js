@@ -1,20 +1,12 @@
 import React from 'react';
-
-// CSS
 import './App.css';
-
-// Components
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-
-// Pages
 import Landing from './pages/Landing';
 import Data from './pages/Data';
 import Comparison from './pages/Comparison';
 import Visualization from './pages/Visualization';
 import NoMatch from './pages/NoMatch';
-
-// Page routing
 import {
   HashRouter as Router,
   Route,

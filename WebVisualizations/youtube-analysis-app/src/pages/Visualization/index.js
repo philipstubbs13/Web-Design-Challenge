@@ -22,17 +22,17 @@ export default function Visualization(props) {
       return (
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-sm-12 mt-5">
+            <div className="col-md-7 col-sm-12 mt-5">
               <div className="card">
                 <div className="card-body">
                   <h3><i className="fab fa-youtube"></i> {plotObject.title}</h3>
                   <hr/>
-                  <img className="visualization image" src={process.env.PUBLIC_URL+ `/images/${plotObject.image}`} alt={plotObject.alt} />
+                  <img className="img-fluid rounded mx-auto d-block" src={process.env.PUBLIC_URL+ `/images/${plotObject.image}`} alt={plotObject.alt} />
                   <p className="mt-4">{plotObject.description}</p>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-sm-12 mt-5">
+            <div className="col-md-5 col-sm-12 mt-5">
               <Visualizations activePlot={plotObject.id} />
             </div>
           </div>

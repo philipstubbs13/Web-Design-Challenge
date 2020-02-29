@@ -40,10 +40,21 @@
 }
 
 
+
 /* Bootstrap md breakpoint */
 @media (max-width: 991.98px) { 
   .dropdown-menu {
     background-color: var(--app-secondary-color);
+  };
+}
+
+/* Bootstarap sm breakpoint */
+@media (max-width: 576px) { 
+  .navbar {
+    background-color: var(--app-secondary-color) !important;
+  }
+  .navbar-collapse {
+    background-color: var(--app-dark-color) !important;
   };
 }
 

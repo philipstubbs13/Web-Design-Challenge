@@ -23,13 +23,13 @@ export default function Comparison() {
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">US</h4>
                     <Link to="/plots/1" target="_blank">
-                      <img src={process.env.PUBLIC_URL+ "/images/time_of_day_us.png"} className="visualization" alt="Average number of likes and comments vs number of trending videos at different times of day in the US." />
+                      <img src={process.env.PUBLIC_URL+ "/images/time_of_day_us.png"} className="visualization-compare img-fluid rounded mx-auto d-block" alt="Average number of likes and comments vs number of trending videos at different times of day in the US." />
                     </Link>
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">OUS</h4>
                     <Link to="/plots/2" target="_blank">
-                      <img src={process.env.PUBLIC_URL+ "/images/time_of_day_ous.png"}  className="visualization" alt="Average number of likes and comments vs number of trending videos at different times of day in countries outside of the US." />
+                      <img src={process.env.PUBLIC_URL+ "/images/time_of_day_ous.png"}  className="visualization-compare img-fluid rounded mx-auto d-block" alt="Average number of likes and comments vs number of trending videos at different times of day in countries outside of the US." />
                     </Link>
                   </div>
                 </div>         
@@ -48,13 +48,13 @@ export default function Comparison() {
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">US</h4>
                     <Link to="/plots/3" target="_blank">
-                      <img src={process.env.PUBLIC_URL+ "/images/top_trending_videos_by_category_us.png"} alt="Top trending videos by category in the US"  className="visualization" />
+                      <img src={process.env.PUBLIC_URL+ "/images/top_trending_videos_by_category_us.png"} alt="Top trending videos by category in the US"  className="visualization-compare img-fluid rounded mx-auto d-block" />
                     </Link>
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">OUS</h4>
                     <Link to="/plots/4" target="_blank">
-                      <img src={process.env.PUBLIC_URL+ "/images/top_trending_videos_by_category_ous.png"} alt="Top trending videos by category in countries outside of the US." className="visualization" />
+                      <img src={process.env.PUBLIC_URL+ "/images/top_trending_videos_by_category_ous.png"} alt="Top trending videos by category in countries outside of the US." className="visualization-compare img-fluid rounded mx-auto d-block" />
                     </Link>
                   </div>
                 </div>         
@@ -73,13 +73,13 @@ export default function Comparison() {
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">Comedy</h4>
                     <Link to="/plots/7" target="_blank">
-                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_Comedy_US.png"}  className="visualization" alt="Top tags used in comedy videos in the US." />
+                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_Comedy_US.png"}  className="visualization-compare img-fluid rounded mx-auto d-block" alt="Top tags used in comedy videos in the US." />
                     </Link>
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">Entertainment</h4>
                     <Link to="/plots/8" target="_blank">
-                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_Entertainment_US.png"} className="visualization" alt="Top tags used in entertainment videos in the US." />
+                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_Entertainment_US.png"} className="visualization-compare img-fluid rounded mx-auto d-block" alt="Top tags used in entertainment videos in the US." />
                     </Link>
                   </div>
                 </div>
@@ -87,13 +87,13 @@ export default function Comparison() {
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">How to and Style</h4>
                     <Link to="/plots/9" target="_blank">
-                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_Howto & Style_US.png"} className="visualization" alt="Top tags used in how to and style videos in the US." />
+                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_Howto & Style_US.png"} className="visualization-compare img-fluid rounded mx-auto d-block" alt="Top tags used in how to and style videos in the US." />
                     </Link>
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">Music</h4>
                     <Link to="/plots/10" target="_blank">
-                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_Music_US.png"} className="visualization" alt="Top tags used in music videos in the US." />
+                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_Music_US.png"} className="visualization-compare img-fluid rounded mx-auto d-block" alt="Top tags used in music videos in the US." />
                     </Link>
                   </div>
                 </div>
@@ -101,7 +101,7 @@ export default function Comparison() {
                   <div className="col-md-6 col-sm-12">
                     <h4 className="text-center">News and Politics</h4>
                     <Link to="/plots/11" target="_blank">
-                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_News & Politics_US.png"} className="visualization" alt="Top tags used in news and politics videos in the US." />
+                      <img src={process.env.PUBLIC_URL+ "/images/top_tags_News & Politics_US.png"} className="visualization-compare img-fluid rounded mx-auto d-block" alt="Top tags used in news and politics videos in the US." />
                     </Link>
                   </div>
                 </div>        

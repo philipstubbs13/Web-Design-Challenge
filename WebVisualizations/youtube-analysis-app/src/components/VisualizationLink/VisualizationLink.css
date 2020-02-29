@@ -1,10 +1,13 @@
 .active-visualization {
-  border: 5px solid var(--app-secondary-color);
+  border: 5px solid var(--app-secondary-color) !important;
 }
 
-.visuaization-image {
-  width: 100%;
+.visualization-image {
+  border: 3px solid var(--app-dark-color);
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 30px !important;
+}
+
+.visualization-image:hover {
+  border: 3px solid var(--app-pink-color);
 }

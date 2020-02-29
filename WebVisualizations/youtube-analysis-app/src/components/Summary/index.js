@@ -6,7 +6,7 @@ export default function Summary() {
       <div className="card-body">
         <h3><i className="fab fa-youtube"></i> Summary: YouTube Trending Insights</h3>
         <hr/>
-        <img className="text-wrap landing-image" src={process.env.PUBLIC_URL+ "/images/time_of_day_us.png"} alt="Average number of likes and comments vs number of trending videos at different times of day in the US." />
+        <img className="text-wrap landing-image image img-fluid rounded" src={process.env.PUBLIC_URL+ "/images/time_of_day_us.png"} alt="Average number of likes and comments vs number of trending videos at different times of day in the US." />
         <p>
           YouTube is one of the largest search engines and one of the largest social media platforms. It has been around for awhile now, but it is still growing in terms of number of videos being uploaded, number of content creators, and number of content consumers. It is used by people all over the US and around the world. 
         </p>
