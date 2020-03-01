@@ -15,7 +15,7 @@ For more information about the data analysis and visualization project I complet
 
 ## <a name="website"></a>Visualization Dashboard Website
 
-To create the visualization dashboard website, I used HTML, CSS, and Bootstrap. The website is currently deployed to GitHub Pages. The website works on a variety of screen sizes, from mobile to desktop. To check out the visualization dashboard website (it's dark theme), you can go to [https://philipstubbs13.github.io/Web-Design-Challenge/#/youtube-insights](https://philipstubbs13.github.io/Web-Design-Challenge/#/youtube-insights).
+To create the visualization dashboard website, I used HTML, CSS, and Bootstrap. The website is currently deployed to GitHub Pages. The website works on a variety of screen sizes, from mobile to desktop. To check out the visualization dashboard website (it's dark theme), you can go [here](https://philipstubbs13.github.io/Web-Design-Challenge/#/youtube-insights).
 
 ## <a name="requirements"></a>Requirements
 
